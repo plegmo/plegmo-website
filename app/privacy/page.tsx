@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
           <p>
-            Plegmo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) provides CRM and communication management software designed for travel agencies, tour operators, and hospitality businesses. This Privacy Policy explains how we collect, use, and protect information when you use our platform, APIs, and connected messaging channels (including WhatsApp, Instagram, and Facebook Messenger).
+            Plegmo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), operated by <strong>مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات</strong> (Abnaa El Nile for Restaurants, General Trading &amp; Supplies, Tax ID: 553-212-044), provides CRM and communication management software designed for travel agencies, tour operators, and hospitality businesses. This Privacy Policy explains how we collect, use, and protect information when you use our platform, APIs, and connected messaging channels (including WhatsApp, Instagram, and Facebook Messenger).
           </p>
         </section>
 
@@ -69,11 +69,12 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">6. Contact Us</h2>
-          <p>
-            If you have questions regarding this Privacy Policy or our privacy practices, please contact us at:
-            <br />
-            <span className="text-white font-medium">Email:</span> privacy@plegmo.com
+          <h2 className="text-xl font-semibold text-white mb-3">6. Contact Us &amp; Legal Entity</h2>
+          <p className="space-y-1">
+            <span className="block"><strong className="text-white font-medium">Operating Entity:</strong> مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات (Abnaa El Nile for Restaurants, General Trading &amp; Supplies)</span>
+            <span className="block"><strong className="text-white font-medium">Registered Address:</strong> 159 حي الملتقى العربي، مساكن الشيراتون، النزهة، محافظة القاهرة (159 Arab Forum, Sheraton Buildings, El Nozha, Cairo, Egypt)</span>
+            <span className="block"><strong className="text-white font-medium">Tax Registration No.:</strong> 553-212-044</span>
+            <span className="block"><strong className="text-white font-medium">Email:</strong> privacy@plegmo.com</span>
           </p>
         </section>
       </div>

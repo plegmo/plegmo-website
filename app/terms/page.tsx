@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">1. Agreement to Terms</h2>
           <p>
-            By accessing or using the Plegmo platform, websites, or services, you agree to be bound by these Terms of Service. If you do not agree to these terms, you may not use our services.
+            By accessing or using the Plegmo platform, websites, or services (operated by <strong>مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات</strong> / Abnaa El Nile for Restaurants, General Trading &amp; Supplies, Tax ID: 553-212-044), you agree to be bound by these Terms of Service. If you do not agree to these terms, you may not use our services.
           </p>
         </section>
 
@@ -57,16 +57,18 @@ export default function TermsOfServicePage() {
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">4. Intellectual Property</h2>
           <p>
-            All right, title, and interest in and to the Plegmo software, branding, and interfaces are and will remain the exclusive property of Plegmo and its licensors.
+            All right, title, and interest in and to the Plegmo software, branding, and interfaces are and will remain the exclusive property of Plegmo and its operating entity.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">5. Termination and Contact</h2>
-          <p>
-            We reserve the right to suspend or terminate access for violations of these terms. For inquiries regarding these terms, please contact:
-            <br />
-            <span className="text-white font-medium">Email:</span> legal@plegmo.com
+          <h2 className="text-xl font-semibold text-white mb-3">5. Termination, Contact &amp; Legal Entity</h2>
+          <p className="space-y-1">
+            <span className="block">We reserve the right to suspend or terminate access for violations of these terms. For inquiries regarding these terms, please contact:</span>
+            <span className="block"><strong className="text-white font-medium">Operating Entity:</strong> مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات</span>
+            <span className="block"><strong className="text-white font-medium">Registered Address:</strong> 159 حي الملتقى العربي، مساكن الشيراتون، النزهة، القاهرة (159 Arab Forum, Sheraton Buildings, El Nozha, Cairo, Egypt)</span>
+            <span className="block"><strong className="text-white font-medium">Tax Registration No.:</strong> 553-212-044</span>
+            <span className="block"><strong className="text-white font-medium">Email:</strong> legal@plegmo.com</span>
           </p>
         </section>
       </div>

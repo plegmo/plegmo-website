@@ -473,30 +473,49 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="border-t border-slate-900 bg-slate-950 py-12 text-sm text-slate-500">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center font-bold text-slate-950 text-base">
-              P
+        <div className="max-w-7xl mx-auto px-6 space-y-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-3">
+              <div className="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center font-bold text-slate-950 text-base">
+                P
+              </div>
+              <span className="font-semibold text-white">Plegmo</span>
+              <span className="text-slate-600">|</span>
+              <span>Software &amp; Digital Infrastructure</span>
             </div>
-            <span className="font-semibold text-white">Plegmo Inc.</span>
-            <span className="text-slate-600">|</span>
-            <span>Software &amp; Digital Infrastructure</span>
+
+            <div className="flex items-center gap-6 text-slate-400">
+              <Link href="/privacy" className="hover:text-emerald-400 transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/terms" className="hover:text-emerald-400 transition-colors">
+                Terms of Service
+              </Link>
+              <a href="mailto:contact@plegmo.com" className="hover:text-emerald-400 transition-colors">
+                contact@plegmo.com
+              </a>
+            </div>
+
+            <div>
+              &copy; {new Date().getFullYear()} Plegmo. All rights reserved.
+            </div>
           </div>
 
-          <div className="flex items-center gap-6 text-slate-400">
-            <Link href="/privacy" className="hover:text-emerald-400 transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="hover:text-emerald-400 transition-colors">
-              Terms of Service
-            </Link>
-            <a href="mailto:contact@plegmo.com" className="hover:text-emerald-400 transition-colors">
-              contact@plegmo.com
-            </a>
-          </div>
-
-          <div>
-            &copy; {new Date().getFullYear()} Plegmo. All rights reserved.
+          <div className="border-t border-slate-900/80 pt-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-slate-400">
+            <div>
+              <span className="text-slate-300 font-medium">Legal Entity: </span>
+              مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات (Abnaa El Nile for Restaurants, General Trading &amp; Supplies)
+            </div>
+            <div className="flex flex-wrap items-center gap-4 text-slate-400">
+              <span>
+                <strong className="text-slate-300 font-medium">Address: </strong>
+                159 حي الملتقى العربي، مساكن الشيراتون، النزهة، القاهرة (159 Arab Forum, Sheraton, Cairo)
+              </span>
+              <span>
+                <strong className="text-slate-300 font-medium">Tax ID: </strong>
+                553-212-044
+              </span>
+            </div>
           </div>
         </div>
       </footer>
