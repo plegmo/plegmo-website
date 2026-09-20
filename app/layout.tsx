@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://plegmo.com"),
   title: "Plegmo | The Intelligent CRM & Omnichannel Inbox for Travel Agencies",
   description:
     "Convert inquiries into booked trips faster. Unified WhatsApp, Instagram, and Messenger chat, smart lead pipelines, and demand intelligence built for travel and tourism companies.",
