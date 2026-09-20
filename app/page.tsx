@@ -488,6 +488,9 @@ export default function HomePage() {
               <Link href="/privacy" className="hover:text-emerald-400 transition-colors">
                 Privacy Policy
               </Link>
+              <Link href="/data-deletion" className="hover:text-emerald-400 transition-colors">
+                Data Deletion
+              </Link>
               <Link href="/terms" className="hover:text-emerald-400 transition-colors">
                 Terms of Service
               </Link>

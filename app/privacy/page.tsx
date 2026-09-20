@@ -3,7 +3,7 @@ import { ArrowLeft, Shield } from "lucide-react";
 
 export const metadata = {
   title: "Privacy Policy | Plegmo",
-  description: "Privacy Policy for Plegmo CRM and Services.",
+  description: "Privacy Policy for Plegmo CRM and Messaging Services.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -25,56 +25,105 @@ export default function PrivacyPolicyPage() {
         <h1 className="text-3xl font-bold text-white tracking-tight">Privacy Policy</h1>
       </div>
 
-      <p className="text-sm text-slate-400 mb-8">Effective Date: September 7, 2026</p>
+      <p className="text-sm text-slate-400 mb-8">Last updated: September 20, 2026 (v2)</p>
 
       <div className="space-y-6 text-slate-300 leading-relaxed text-sm sm:text-base border-t border-slate-800 pt-8">
         <section>
           <h2 className="text-xl font-semibold text-white mb-3">1. Introduction</h2>
           <p>
-            Plegmo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), operated by <strong>مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات</strong> (Abnaa El Nile for Restaurants, General Trading &amp; Supplies, Tax ID: 553-212-044), provides CRM and communication management software designed for travel agencies, tour operators, and hospitality businesses. This Privacy Policy explains how we collect, use, and protect information when you use our platform, APIs, and connected messaging channels (including WhatsApp, Instagram, and Facebook Messenger).
+            Plegmo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;), operated by <strong>مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات</strong> (Abnaa El Nile for Restaurants, General Trading &amp; Supplies, Tax ID: 553-212-044), provides a customer relationship management platform for travel agencies, tour operators, and hospitality businesses. This policy covers messaging data handled through our integrations with Meta platforms (WhatsApp, Instagram, and Facebook Messenger) on behalf of the agencies we work with.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">2. Information We Process</h2>
-          <p className="mb-2">
-            Depending on your agency&apos;s configuration, Plegmo processes:
+          <h2 className="text-xl font-semibold text-white mb-3">2. What We Process</h2>
+          <p>
+            When a customer messages one of our agency clients via WhatsApp, Instagram, or Messenger, we receive and store the message content, sender contact information (phone number or Instagram/Facebook identifiers), timestamps, and any attached media (images, voice notes, documents), so that the agency&apos;s team can respond through our platform.
           </p>
-          <ul className="list-disc pl-6 space-y-1 text-slate-400">
-            <li><strong className="text-slate-200">Account Information:</strong> Name, work email, business name, and authentication credentials.</li>
-            <li><strong className="text-slate-200">Channel Integration Data:</strong> Tokens, webhook notifications, and identifiers necessary to link your WhatsApp Business Accounts, Instagram Professional accounts, and Facebook Pages.</li>
-            <li><strong className="text-slate-200">Customer Communication Data:</strong> Inbound and outbound message text, timestamps, contact phone numbers, and delivery statuses solely on behalf of our travel agency clients.</li>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-white mb-3">3. How We Use It</h2>
+          <p>
+            Message data is used solely to enable the agency to communicate with their own customers. We do not sell this data, use it for advertising, or share it with any third party outside of the infrastructure required to deliver the service.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-white mb-3">4. Who Processes Your Data (Sub-processors)</h2>
+          <p className="mb-3">
+            We keep the number of parties who touch your data to two, both under our direct control:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-slate-400">
+            <li>
+              <strong className="text-slate-200">Chatwoot</strong> (self-hosted by us, not a third-party SaaS) — the messaging transport layer that receives and sends messages on our behalf.
+            </li>
+            <li>
+              <strong className="text-slate-200">Amazon Web Services (AWS)</strong> — the infrastructure provider hosting our servers and databases, in the <strong className="text-slate-200">eu-central-1 (Frankfurt, Germany)</strong> region.
+            </li>
           </ul>
-        </section>
-
-        <section>
-          <h2 className="text-xl font-semibold text-white mb-3">3. Meta Platform Data Compliance</h2>
-          <p>
-            Plegmo strictly complies with Meta Platform Terms and Developer Policies. We use Meta APIs (including the WhatsApp Cloud API and Messenger API) exclusively to provide requested messaging and customer relationship management functionalities to our clients. We do not sell, rent, or transfer Meta User Data to third parties or advertising networks.
+          <p className="mt-3 text-slate-400">
+            Meta Platforms, Inc. (WhatsApp, Instagram, Messenger) also processes data as the messaging channel itself, under its own terms, before it reaches us.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">4. Data Security &amp; Retention</h2>
+          <h2 className="text-xl font-semibold text-white mb-3">5. Retention</h2>
           <p>
-            We implement robust administrative, technical, and physical safeguards designed to protect business data against unauthorized access, disclosure, alteration, or destruction. Data is retained only for as long as necessary to fulfill the operational purposes described or as required by law.
+            Conversation data is retained for as long as the agency&apos;s account is active, so their team can review conversation history. If an agency&apos;s account is closed, we retain their data for <strong className="text-white">30 days</strong> to allow for reactivation or export, after which it is permanently deleted. A customer may request deletion of their own message data at any time — see &quot;Your Rights and Data Deletion&quot; below — independent of the agency&apos;s account status.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">5. User Rights and Data Deletion</h2>
+          <h2 className="text-xl font-semibold text-white mb-3">6. Your Rights and Data Deletion</h2>
           <p>
-            Users and clients have the right to access, rectify, or request deletion of their personal and communications data. To submit a data deletion request, email us at <span className="text-emerald-400 font-medium">privacy@plegmo.com</span> with your organization and account details.
+            If you are a customer who has messaged one of our agency clients and want your message data deleted, you may remove the app&apos;s access from your own Facebook or Instagram account settings, or contact us directly at <a href="mailto:privacy@plegmo.com" className="text-emerald-400 hover:text-emerald-300 underline underline-offset-4">privacy@plegmo.com</a> to request deletion of data already stored. See our <Link href="/data-deletion" className="text-emerald-400 hover:text-emerald-300 underline underline-offset-4">Data Deletion Instructions</Link> for the full process.
           </p>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-white mb-3">6. Contact Us &amp; Legal Entity</h2>
+          <h2 className="text-xl font-semibold text-white mb-3">7. Meta Platform Terms</h2>
+          <p>
+            Our use of the WhatsApp Business Platform, Instagram, and Facebook Messenger is subject to Meta&apos;s{" "}
+            <a
+              href="https://developers.facebook.com/terms/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 hover:text-emerald-300 underline underline-offset-4"
+            >
+              Platform Terms
+            </a>{" "}
+            and, for Instagram specifically, the{" "}
+            <a
+              href="https://help.instagram.com/581066165581870"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-emerald-400 hover:text-emerald-300 underline underline-offset-4"
+            >
+              Instagram Platform Policy
+            </a>
+            . We process data received through these platforms consistently with those terms.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-semibold text-white mb-3">8. Contact Us &amp; Legal Entity</h2>
           <p className="space-y-1">
-            <span className="block"><strong className="text-white font-medium">Operating Entity:</strong> مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات (Abnaa El Nile for Restaurants, General Trading &amp; Supplies)</span>
-            <span className="block"><strong className="text-white font-medium">Registered Address:</strong> 159 حي الملتقى العربي، مساكن الشيراتون، النزهة، محافظة القاهرة (159 Arab Forum, Sheraton Buildings, El Nozha, Cairo, Egypt)</span>
-            <span className="block"><strong className="text-white font-medium">Tax Registration No.:</strong> 553-212-044</span>
-            <span className="block"><strong className="text-white font-medium">Email:</strong> privacy@plegmo.com</span>
+            <span className="block">
+              <strong className="text-white font-medium">Operating Entity:</strong> مصطفي محمود احمد محمود وشركاه - ابناء النيل لانشاء المطاعم والتجارة العامة والتوريدات (Abnaa El Nile for Restaurants, General Trading &amp; Supplies)
+            </span>
+            <span className="block">
+              <strong className="text-white font-medium">Registered Address:</strong> 159 حي الملتقى العربي، مساكن الشيراتون، النزهة، محافظة القاهرة (159 Arab Forum, Sheraton Buildings, El Nozha, Cairo, Egypt)
+            </span>
+            <span className="block">
+              <strong className="text-white font-medium">Tax Registration No.:</strong> 553-212-044
+            </span>
+            <span className="block">
+              <strong className="text-white font-medium">Email:</strong>{" "}
+              <a href="mailto:privacy@plegmo.com" className="text-emerald-400 hover:text-emerald-300">
+                privacy@plegmo.com
+              </a>
+            </span>
           </p>
         </section>
       </div>
